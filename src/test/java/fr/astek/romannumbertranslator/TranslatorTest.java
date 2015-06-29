@@ -75,5 +75,23 @@ public class TranslatorTest {
         int result = instance.convertRoman("XI");
         assertEquals(11, result);
     }
+    
+    @Test
+    public void voidConvertRoman15() {
+        int result = instance.convertRoman("XV");
+        assertEquals(15, result);
+    }
+    
+    @Test
+    public void voidConvertRoman51() {
+        int result = instance.convertRoman("LI");
+        assertEquals(51, result);
+    }
+    
+    @Test
+    public void voidConvertRoman4784() {
+        int result = instance.convertRoman("MMMMDCCLXXXIV");
+        assertEquals(4784, result);
+    }
 
 }
