@@ -9,13 +9,13 @@ import static org.junit.Assert.*;
  *
  * @author odupre
  */
-public class TranslatorTest {
+public class RomanToDecimalTranslatorTest {
 
-    private Translator instance;
+    private RomanToDecimalTranslator instance;
 
     @Before
     public void setUp() {
-        instance = new Translator();
+        instance = new RomanToDecimalTranslator();
     }
 
     @After

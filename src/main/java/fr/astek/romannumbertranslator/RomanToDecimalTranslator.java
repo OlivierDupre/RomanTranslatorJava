@@ -3,11 +3,7 @@ package fr.astek.romannumbertranslator;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- *
- * @author odupre
- */
-public class Translator {
+public class RomanToDecimalTranslator {
 
     final static Map<String,Integer> romanToDecimal = new HashMap<>();
     static {
@@ -36,7 +32,4 @@ public class Translator {
               
         return roman.length();
     }
-    
-    
-
 }
